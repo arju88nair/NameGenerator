@@ -616,5 +616,10 @@ right = [
     # Nikolay Yegorovich Zhukovsky (Russian: Никола́й Его́рович Жуко́вский, January 17 1847 – March 17, 1921) was a Russian scientist, mathematician and engineer, and a founding father of modern aero- and hydrodynamics. Whereas contemporary scientists scoffed at the idea of human flight, Zhukovsky was the first to undertake the study of airflow. He is often called the Father of Russian Aviation. https:#en.wikipedia.org/wiki/Nikolay_Yegorovich_Zhukovsky
     "zhukovsky",
 ]
-secure_random = random.SystemRandom()
-print(secure_random.choice(left)+'_'+secure_random.choice(right))
+
+def generateName():
+        secure_random = random.SystemRandom()
+        name=secure_random.choice(left)+'_'+secure_random.choice(right)
+        return name
+        
+
