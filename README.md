@@ -1,4 +1,5 @@
 # NameGenerator
 
+A random name generator in Python from the name list on Docker.Just for fun and future reference 
 
-Base code Go copied from Moby which is in GO
+Base code in Go copied from Moby 
